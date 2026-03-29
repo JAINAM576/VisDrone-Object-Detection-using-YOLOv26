@@ -24,7 +24,8 @@ Object detection on the VisDrone dataset using YOLOv26, with focus on training a
 ## 🖼️ Sample Predictions
 
 ![Prediction](results/predictions/9999939_00000_d_0000166.jpg)
-
+![Prediction](results/predictions/9999939_00000_d_0000196.jpg)
+![Prediction](results/predictions/9999939_00000_d_0000271.jpg)
 ---
 
 ## ⚙️ Setup
