@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 ## 📦 Model Weights
 
-Download: [best.pt](link_here)
+Download: [best.pt](models/best.pt)
 
 ## Inference
 
