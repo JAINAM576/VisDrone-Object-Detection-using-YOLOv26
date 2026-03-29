@@ -1,6 +1,12 @@
 # VisDrone Object Detection — YOLOv26n
 
-Drone-view object detection on the [VisDrone 2019](https://github.com/VisDrone/VisDrone-Dataset) dataset using YOLOv26n, trained from scratch on Kaggle.
+## 🚀 Highlights
+
+- Trained on 38K+ annotated objects
+- Achieved mAP@50: **0.33**
+- Strong performance on large objects, weaker on small/rare classes
+
+Drone-view object detection on the [VisDrone 2019](https://www.kaggle.com/datasets/banuprasadb/visdrone-dataset/data) dataset using YOLOv26n, trained from scratch on Kaggle.
 
 ---
 
@@ -52,6 +58,8 @@ Drone-view object detection on the [VisDrone 2019](https://github.com/VisDrone/V
 - Model was still improving at epoch 50 — more epochs will help
 - Small/rare objects remain the core challenge on drone imagery
 
+Overall performance is moderate, with strong detection for frequent classes and weaker generalization on rare and small objects.
+
 ---
 
 ## Sample Predictions
@@ -71,6 +79,10 @@ pip install -r requirements.txt
 ```
 
 ---
+
+## 📦 Model Weights
+
+Download: [best.pt](link_here)
 
 ## Inference
 
